@@ -7,7 +7,7 @@ type PendingGoalsResponse = {
 
 export async function getPendingGoals(): Promise<PendingGoalsResponse> {
   const response = await fetch(
-    "https://nlw-pocket-backend-v73l.onrender.com/pending-goals"
+    "https://nlw-pocket-backend-gfrs.onrender.com/pending-goals"
   );
   const data = await response.json();
 

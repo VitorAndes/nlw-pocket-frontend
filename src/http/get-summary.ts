@@ -13,7 +13,7 @@ type SummaryResponse = {
 
 export async function getSummary(): Promise<SummaryResponse> {
   const response = await fetch(
-    "https://nlw-pocket-backend-v73l.onrender.com/summary"
+    "https://nlw-pocket-backend-gfrs.onrender.com/summary"
   );
   const data = await response.json();
 
